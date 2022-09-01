@@ -1,0 +1,6 @@
+{
+    "library": ["overall","noise","space","accessibility","resource"],
+    "dininghall": ["overall","taste","hygiene","variety","nutrition","price"],
+    "residentialhall":["overall","cleanliness","location","noise","privacy","bathroom"],
+    "gym":["overall","space","equipment","cleanliness","community"]
+}

@@ -1,0 +1,83 @@
+.regError{
+    font-size: 9px;
+    color: red;
+    font-weight: 100;
+}
+
+.popup-content{ /* FOR POPUP */
+    width:0 !important;
+}
+
+
+.authForm{
+    position: absolute;
+    top: 35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    width: 400px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+#email:invalid{
+    border:solid red 1px;
+}
+.authForm .header{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.alertText{
+    color:red;
+    font-size: 10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.authForm img{
+    width:200px;
+    margin-bottom:20px;
+}
+.authForm input{
+    height:50px;
+    width:300px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.authForm input::placeholder{
+    font-size:12px;
+}
+.authForm button{
+    margin-top:10px;
+    margin-bottom: 10px;
+    position: relative;
+    height:40px;
+    width:200px;
+    background-color:black;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.authForm a{
+    font-size: 12px;
+    margin-right: 10px;
+
+}
+#congratulationContainer{
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}

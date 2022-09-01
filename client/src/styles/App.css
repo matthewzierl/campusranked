@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import "./Row.css";
+@import "./SearchBar.css";
+@import "./RankedTable.css";
+@import "./authForm.css";
+@import "./Footer.css";
+@import "./Ranked.css";
+@import "./Profile.css";
+@import "./rateTags.css";
+@import "./schoolOverview.css";
+
+
+
+* {
+  font-weight: 400;
+  text-align: center;
+  overflow: visible;
+  z-index: 0;
+}
+
+
+:root{
+  --main-color: #f62459;
+}
+
+
+#root {
+  width: 100%;
+  position: relative;
+  overflow: auto;
+  height: fit-content;
+  /* min-height: 150vh; */
+  position: relative;
+  overflow: visible;
+}
+
+#content {
+  top: 0;
+  height: fit-content;
+  /* min-height: 150vh; */
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+input {
+  outline: none;
+}
+
+.spacer {
+  height: 5vh;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+}
+
+body {
+  font-family: 'ISO-Regular','Helvetica','Arial','Lucida Grande','sans-serif';
+  font-weight: 900;
+ }
+h1,h2,h3,h4,h5{
+  margin:0;
+  font-weight:700;
+}
+
+ 
+.noBreak{
+  white-space: nowrap;
+}
+
+#title{
+  font-size: 50px;
+  font-weight: 500;
+  color: black;
+}
+
+.center{
+  position: absolute;
+  width:100%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  white-space: nowrap;
+}
+
+.onePage{
+  min-height:100vh;
+  position:relative
+}
+
+.title {
+  background-color: white;
+  color: black;
+  height: fit-content;
+  width: fit-content;
+  font-size: 50px;
+  left: 10%;
+  display: inline-block;
+  justify-content: center;
+  border:1px solid;
+  top:-30px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 0px 20px 0px 20px;
+}
+
+@media (max-width: 767px) {
+  .title{
+      left:0px;
+  }
+}
+
+
+/*For Pop up */
+.popup-content{
+  border:none !important;
+  padding:0 !important;
+}

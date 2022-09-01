@@ -1,0 +1,94 @@
+/* **** Search BAR **** */
+.logo {
+  max-width: 160px !important;
+}
+.searchBar {
+  background-color: white;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  max-width: 100% !important;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  margin: 0;
+  z-index: 1;
+  justify-content: center;
+  -webkit-box-shadow: 0px 24px 16px -17px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 24px 16px -17px rgba(0,0,0,0.25);
+box-shadow: 0px 24px 16px -17px rgba(0,0,0,0.25);
+padding: 6px 0px 6px 0px;
+}
+
+
+.search {
+  outline: none;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  min-width: 100%;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  border:solid lightgray 1px;
+  background-color: #ffffff;
+}
+.searchDropDownItem {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 50px;
+  position: relative;
+  color: #3f3f3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.searchDropDownItem:hover {
+  background-color: #f7f7f7;
+}
+.dropDownContainer{
+  position: absolute;
+  width: 100%;
+  -webkit-box-shadow: 0px 19px 24px -6px rgba(0,0,0,0.14);
+  -moz-box-shadow: 0px 19px 24px -6px rgba(0,0,0,0.14);
+  box-shadow: 0px 19px 24px -6px rgba(0,0,0,0.14); 
+}
+.searchItems {
+  position: relative;
+  display: block;
+  top:7px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.searchDropDownItem a {
+  color: #3f3f3f;
+  text-decoration: none;
+  font-size: 14px;
+}
+.accountBtn {
+  font-size: 18px;
+  color:black;
+  display: inline-block;
+  min-height: 40px;
+}
+.accountBtn .username{
+  /*background-color: #465881;*/
+  background-color: black;
+  display: inline-block;
+  color: white;
+  padding: 1px 7px 1px 7px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .accountBtn{
+      display: none;
+  }
+  .searchItems{
+    margin-bottom: 10px;
+  }
+}

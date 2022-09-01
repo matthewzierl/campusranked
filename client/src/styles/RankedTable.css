@@ -1,0 +1,86 @@
+/* TABLE STYLES */
+
+
+.ranked_table {
+  background-color: white;
+  border-spacing: 20px 30px;
+  display: inherit;
+  -webkit-box-shadow: 0px 13px 34px 3px rgba(0,0,0,0.17);
+  -moz-box-shadow: 0px 13px 34px 3px rgba(0,0,0,0.17);
+  box-shadow: 0px 13px 34px 3px rgba(0,0,0,0.17);
+  max-width: 600px;
+  /* overflow: hidden; 
+     */
+}
+
+/*.collapsable{
+  width:fit-content;
+  position: relative;
+  padding-bottom: 30px;
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+}
+*/
+.expandImg{
+  width:40px;
+}
+.expandBtn{
+  opacity:50%;
+}
+.expandBtn:hover{
+  opacity:100%;
+}
+.smallText{
+  font-size: 9px;
+  position: relative;
+  top:-5px;
+}
+
+.notice {
+  position: relative;
+  top: 10px;
+  font-size: 9px;
+  color: grey;
+  font-weight: 100;
+  display: block;
+
+}
+
+#voteLimitAlert{
+  position: relative;
+  font-size: 12px;
+  color:red;
+  display: block;
+
+}
+
+tbody {
+  display: inline-block;
+  z-index: 2;
+}
+
+.overallRatingsContainer{
+  height: 30px;
+  width: 300px;
+  padding: 2px;
+  display: block;
+  position: relative;
+  left:20%;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #3f3f3f;
+}
+
+.instructionPopUp{
+  position:fixed;
+  bottom:0;
+  right:0;
+  background-color: white;
+  border: 1px solid black;
+  width: 300px;
+  color: black;
+  font-weight: 600;
+  padding: 30px 50px 30px 50px;
+  z-index: 1000;
+}
