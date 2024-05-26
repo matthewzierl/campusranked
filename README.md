@@ -40,7 +40,7 @@ https://www.campusranked.com
 * ReDesigned the voting page
 * Added Image banner
 * Modified the footer
-* Set up Amazon S3 Buckets for media storage - MOSTLY DONE
+* Set up Amazon S3 Buckets for media storage
 * Added reset password function
 * Added tag system *** 
 
