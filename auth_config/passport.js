@@ -5,6 +5,7 @@ const passport = require("passport"),
     JWTStrategy = require("passport-jwt").Strategy,
     ExtractJWT = require("passport-jwt").ExtractJwt;
 
+
 module.exports = function (app, mongoose) {
 
     passport.use("register", new LocalStrategy({
